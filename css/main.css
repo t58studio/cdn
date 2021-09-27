@@ -716,7 +716,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
 .header-section{
     background-color: #fff;
     width: 100%;
-    height: 80px;
+    height: 60px;
     z-index: 99;
     position: fixed;
     left: 0;
@@ -728,7 +728,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     -moz-box-shadow: 0 2px 5px rgba(16,16,16,.08);
     -webkit-box-shadow: 0 2px 5px rgba(16,16,16,.08);
     box-shadow: 0 2px 5px rgba(16,16,16,.08);
-    height: 80px;
+    height: 60px;
     border-bottom: 0;
     padding: 0;
 }
@@ -804,7 +804,7 @@ ul.nav > li > a{
     font-size: 12px;
     font-weight: 600;
     text-transform: uppercase;
-    line-height: 80px;
+    line-height: 60px;
     z-index: 1;
 }
 
@@ -813,7 +813,7 @@ ul.nav > li > a{
     font-family: "Poppins",sans-serif;
     color: #263b5e;
     font-weight: 600;
-    line-height: 80px;
+    line-height: 60px;
     margin-left: 10px;
     position: relative;
     cursor: pointer;
@@ -978,9 +978,10 @@ ul.nav > li > a.active{
     right: 0;
     top: 100%;
 }
-.slicknav_btn{
+.slicknav_btn {
     background-color: transparent;
-    margin: -63px 0px 0px;
+    /*margin: -63px 0px 0px;*/
+    margin: -55px 0px 0px;
 }
 .transparent .slicknav_btn { margin: -60px 0px 0px; }
 .transparent.navbar-fixed-top .slicknav_menu .slicknav_icon-bar,
